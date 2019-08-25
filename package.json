@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Example GraphQL API with Node.js, Express and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
+    "stg": "nodemon --exec babel-node src/index.js",
+    "prd": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "merge-graphql-schemas": "^1.7.0",
+    "mysql2": "^1.6.5",
+    "password-validator": "^4.1.2",
+    "sequelize": "^5.15.1",
+    "sequelize-cli": "^5.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
